@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./reservas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Corben:wght@400;700&family=Fresca&display=swap"
+        rel="stylesheet">
+    <title>Reservas Howl</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="./img/logo/logo.png" alt="">
+        <div class="opc-header"><a
+            className="link" href="./reservas.html" rel="noopener noreferrer">Reservas</a></div>
+        <div class="opc-header" id="favoritos">Favoritos</div>
+        <div class="opc-header" id="encomendas">Encomendas</div>
+        <div class="opc-header" id="Pedidos">Pedidos</div>
+    </header>
+    <section class="cards">
+        <div class="card">
+            <h3 class="title">Envie sua Reserva</h3>
+            <img class="ice-cream" src="./img/ice-cream13.jpg" alt="">
+            <form class="form" action="./home.html">
+                <div class="date">
+                    <p class="label">Nome</p>
+                    <input class="input" type="text" placeholder="Carla Araújo">
+                </div>
+                <div class="date">
+                    <p class="label">Telefone</p>
+                    <input class="input" type="number" placeholder="(12)982879586">
+                </div>
+                <div class="date">
+                    <p class="label">E-mail</p>
+                    <input class="input" type="email" placeholder="howl@gmail.com">
+                </div>
+                <div class="date">
+                    <p class="label">Data de nascimento</p>
+                    <input class="input" type="date">
+                </div>
+                <select class="unidades">
+                    <option value="un2">2  Pessoas</option>
+                    <option value="un3">3  Pessoas</option>
+                    <option value="un4">4  Pessoas</option>
+                    <option value="un5">5  Pessoas</option>
+                </select>
+                <select class="unidades">
+                    <option value="un2">2  Dinheiro</option>
+                    <option value="un3">3  Pix</option>
+                    <option value="un4">4  Débito</option>
+                    <option value="un5">5  Crédito</option>
+                </select>
+
+<!--                 <input class="pedir" type="submit" value="Enviar"> -->
+            </form>
+
+            <button class="pedir"></a><a
+                className="link" href="./obrigado.html" rel="noopener noreferrer">Pedir</a></button>
+            <p class="info">Taxa de Reserva R$ 50,00</p>
+        </div>
+    </section>
+    <footer class="footer-style">
+        <p className="footer-text">Feito com 💛 por <a className="link" href="https://www.linkedin.com/in/carla-daiane/"
+                target="_blank" rel="noopener noreferrer"> Carla Araújo |</a> Créditos das imagens aos <a
+                className="link" href="./reservas.html" target="_blank" rel="noopener noreferrer">Colaboradores</a></p>
+    </footer>
+</body>
+</html>
