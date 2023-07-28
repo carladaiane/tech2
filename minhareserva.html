@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./reservas.css">
+    <link rel="stylesheet" href="./minhareserva.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,34 +31,34 @@
             <h3 class="title1"><a className="link" href="./reservas.html"
                  rel="noopener noreferrer"> Envie sua Reserva </a></h3>
             <h3 class="title2"><a className="link" href="./minhareserva.html"
-                 rel="noopener noreferrer"> Minhas Reservas </a></h3>
+                rel="noopener noreferrer"> Minhas Reservas </a></h3>
         </div>
             <img class="ice-cream" src="./img/ice-cream13.jpg" alt="">
-            <p class="info">Taxa de Reserva R$ 50,00 | Pagamento via PIX</p>
-            <form class="form" action="./obrigado.html">
+            <p class="info">Reserva Agendada</p>
+            <form class="form" action="./cancel.html">
                 <div class="date">
                     <p class="label">Nome</p>
-                    <input class="input" type="text" placeholder="Carla Araújo">
+                    <input class="input" type="text" placeholder="Carla Araújo" disabled>
                 </div>
                 <div class="date">
                     <p class="label">Telefone</p>
-                    <input class="input" type="number" placeholder="(12)982879586">
+                    <input class="input" type="number" placeholder="(12)982879586" disabled>
                 </div>
                 <div class="date">
                     <p class="label">E-mail</p>
-                    <input class="input" type="email" placeholder="howl@gmail.com">
+                    <input class="input" type="email" placeholder="howl@gmail.com" disabled>
                 </div>
                 <div class="date">
                     <p class="label">Data da Agenda</p>
-                    <input class="input" type="date">
+                    <input class="input" placeholder="08/08/2023" disabled>
                 </div>
-                <select class="unidades">
+                <select class="unidades" disabled>
                     <option value="un2">2  Pessoas</option>
                     <option value="un3">3  Pessoas</option>
                     <option value="un4">4  Pessoas</option>
                     <option value="un5">5  Pessoas</option>
                 </select>
-                <input class="pedir" type="submit" value="Enviar">
+                <input class="pedir" type="submit" value="Cancelar">
             </form>
         </div>
     </section>
