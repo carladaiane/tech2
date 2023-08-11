@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="index.css">
@@ -17,18 +18,24 @@
 <!-- target="_blank" -->
 <body>
     <header class="header">
-        <a href="./index.html"><img src="./img/logo/logo2.png" height="30" width="156" /></a>
-        <a class="opc-header" href="./reservas.html" rel="noopener noreferrer">Reservas</a>
+        <a href="./index.html" class="logo"><img src="./img/logo/logo2.png" height="30" width="156" /></a>
+        <div class="opc">
+        <span class="material-symbols-outlined" style="display: none;">
+            event_seat
+            </span>
+        <a class="opc-header" href="./pages/reservas.html" rel="noopener noreferrer">Reservas</a>
+    </div>
         <a class="opc-header"  rel="noopener noreferrer">Favoritos</a>
         <a class="opc-header"  rel="noopener noreferrer">Encomendas</a>
         <a class="opc-header"  rel="noopener noreferrer">Pedidos</a>
+        <a class="opc-header"  rel="noopener noreferrer">Sobre Nós</a>
     </header>
     <section class="cards">
         <div class="card">
             <h3 class="title">Dueto de Almas</h3>
             <img class="ice-cream" src="./img/ice-cream13.jpg" alt="">
-            <p class="text">A combinação perfeita pra tocar sua alma. Chocolate belga e Chocolate ao leite</p>
-            <p class="value">R$ 16,90 | 200g</p>
+            <p class="text">A combinação perfeita pra tocar sua alma. Chocolate belga e Chocolate ao leite. O dueto perfeito pra compartilhar.</p>
+            <p class="value">R$ 18,90 | 200g</p>
             <select class="unidades">
                 <option value="un1">1 unidade</option>
                 <option value="un2">2 unidade</option>
@@ -40,8 +47,8 @@
         <div class="card">
             <h3 class="title">Festa e Alegria</h3>
             <img class="ice-cream" src="./img/ice-cream12.jpg" alt="">
-            <p class="text">Baunilha Tropical e Abacaxi com frutas e biscoitos caseiros</p>
-            <p class="value">R$ 16,90 | 200g</p>
+            <p class="text">Baunilha Tropical e Abacaxi acompanhado com diversas frutas e biscoitos caseiro crocante.</p>
+            <p class="value">R$ 43,90 | 200g</p>
             <select class="unidades">
                 <option value="un1">1 unidade</option>
                 <option value="un2">2 unidade</option>
@@ -51,10 +58,10 @@
             <button class="pedir">Pedir</button>
         </div>
         <div class="card">
-            <h3 class="title">Amora com trufas</h3>
+            <h3 class="title">Frutas e Flores</h3>
             <img class="ice-cream" src="./img/ice-cream7.1.jpg" alt="">
-            <p class="text">Sorvete de amora com trufas e essencia de baunilha</p>
-            <p class="value">R$ 16,90 | 200g</p>
+            <p class="text">Inspirado na primavera pra refrescar seu verão. Laranja, Romã e Pistache. Esse trio é perfeito</p>
+            <p class="value">R$ 25,90 | 200g</p>
             <select class="unidades">
                 <option value="un1">1 unidade</option>
                 <option value="un2">2 unidade</option>
@@ -64,10 +71,10 @@
             <button class="pedir">Pedir</button>
         </div>
         <div class="card">
-            <h3 class="title">Amora com trufas</h3>
+            <h3 class="title">Kiwi com creme de flocos</h3>
             <img class="ice-cream" src="./img/ice-cream10.jpg" alt="">
-            <p class="text">Sorvete de amora com trufas e essencia de baunilha</p>
-            <p class="value">R$ 16,90 | 200g</p>
+            <p class="text">A Fruta com sua combinação mais leve com intensas sensações</p>
+            <p class="value">R$ 29,90 | 200g</p>
             <select class="unidades">
                 <option value="un1">1 unidade</option>
                 <option value="un2">2 unidade</option>
@@ -211,7 +218,7 @@
     <footer class="footer-style">
         <p className="footer-text">Feito com 💛 por <a className="link" href="https://www.linkedin.com/in/carla-daiane/"
                 target="_blank" rel="noopener noreferrer"> Carla Araújo |</a> Créditos das imagens aos <a
-                className="link" href="./reservas.html" target="_blank"
+                className="link" href="./pages/colaboradores.html"
                 rel="noopener noreferrer">Colaboradores</a></p>
     </footer>
 </body>
